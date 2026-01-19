@@ -1,0 +1,71 @@
+#!/bin/zsh
+
+ArchPkgs=(
+    grub
+    grub-btrfs
+)
+
+HyprPkgs=(
+    hypridle 
+    hyprland 
+    hyprlock 
+    hyprls-git 
+    hyprpicker 
+    hyprpolkitagent-git 
+    hyprshot-git 
+    hyprsunset 
+)
+
+Pkgs=(
+    7zip
+    alsa-firmware
+    alsa-utils
+    btdu
+    btop
+    btrfs
+    btrfs-progs
+    croc
+    cronie
+    curseforge
+    dart-sass
+    discord
+    foot
+    gamemode
+    gamescope
+    gimp
+    git
+    git-credential-oauth
+    gparted
+    gpu-usage-waybar-git 
+    hwinfo
+    iwd
+    librewolf
+    lua-language-server
+    networkmanager-iwd
+    networkmanager-openconnect
+    nvtop
+    obs-studio-browser
+    olympus-git
+    opentabletdriver
+    osu-lazer-bin
+    pacseek
+    pipewire-alsa
+    proton-tricks
+    protonup-git
+    pwvucontrol
+    socat
+    sddm-git
+    steam
+    swayimg
+    swww
+    telegram-desktop
+    tmux
+    ttf-0xproto-nerd
+    uwsm
+    waybar
+    wev
+    wl-clip-persist
+    yabsnap
+    yay
+    zoxide
+)
