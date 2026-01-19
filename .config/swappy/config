@@ -1,0 +1,11 @@
+[Default]
+save_dir=$HOME/Pictures/Screenshots/
+save_filename_format=Screenshot-%Y%m%d-%H%M.png
+show_panel=false
+line_size=5
+text_size=20
+text_font=sans-serif
+auto_save=true
+transparent=true
+transparency=50
+early_exit=true
