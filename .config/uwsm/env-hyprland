@@ -1,0 +1,4 @@
+# Hyprland env
+export HYPRCURSOR_THEME=rose-pine-hyprcursor
+export HYPRCURSOR_SIZE=48
+# /usr/share/icons/
