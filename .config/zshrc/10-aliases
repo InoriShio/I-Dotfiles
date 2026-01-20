@@ -11,8 +11,9 @@ alias exit='systemctl poweroff'
 alias reboot="hyprshutdown --post-cmd 'systemctl reboot'"
 alias shutdown="hyprshutdown --post-cmd 'systemctl poweroff'"
 
-alias gcredential="git config credential.helper store"
+alias gcredential='git config credential.helper store'
 alias gitup='python ~/.config/hypr/scripts/Github.py'
 
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias dotto='python3 /home/inorishio/.dotfiles/sync.py'
