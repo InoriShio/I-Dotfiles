@@ -4,7 +4,7 @@
 
 # Fastfetch
 if [[ $(tty) == *"pts"* ]]; then
-    fastfetch --config ~/.config/fastfetch/Gif.jsonc
+    fastfetch --config ~/.config/fastfetch/Base.jsonc
 else
     echo
     if [ -f /bin/qtile ]; then

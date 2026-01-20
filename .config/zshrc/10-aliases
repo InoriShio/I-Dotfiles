@@ -1,7 +1,4 @@
-# -----------------------------------------------------
-# ALIASES
-# -----------------------------------------------------
-
+# Global aliases
 alias ff='fastfetch'
 alias v='$EDITOR'
 alias cod='conda deactivate' 
@@ -11,9 +8,12 @@ alias exit='systemctl poweroff'
 alias reboot="hyprshutdown --post-cmd 'systemctl reboot'"
 alias shutdown="hyprshutdown --post-cmd 'systemctl poweroff'"
 
+# Github
 alias gcredential='git config credential.helper store'
 alias gitup='python ~/.config/hypr/scripts/Github.py'
 
+# Github uploading dotfiles
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias dotto='python3 /home/inorishio/.dotfiles/sync.py'
+alias dotedit='v /home/inorishio/.dotfiles/sync.py'
