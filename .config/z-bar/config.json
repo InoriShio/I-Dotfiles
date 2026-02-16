@@ -1,42 +1,103 @@
 {
-    "appCount": 16,
+  "appCount": 16,
 
-    "accentColor": {
-        "accents": {
-            "primary": "#a388db",
-            "primaryAlt": "#6a4c9c",
-            "warning": "#e46a97"
-        }
-    },
+  "accentColor": {
+    "accents": {
+      "primary": "#a388db",
+      "primaryAlt": "#6a4c9c",
+      "warning": "#e46a97"
+    }
+  },
 
-    "transparency": {
-        "enabled": true,
-        "base": 0.6,
-        "layer": 0.4
-    },
+  "transparency": {
+    "enabled": true,
+    "base": 0.6,
+    "layer": 0.4
+  },
 
-    "animScale": 0.8,
+  "colors": {
+    "schemeType": "fruit-salad"
+  },
 
-    "wallpaperPath": "/home/inorishio/Pictures/Backgrounds/",
-    "useDynamicColors": true,
-    "wallust": true,
+  "animScale": 0.8,
 
-	"lock": {
-		"fixLockScreen": false,
-		"useWallpaper": true
-	},
+  "wallpaperPath": "/home/inorishio/Pictures/Backgrounds/",
+  "useDynamicColors": true,
+  "wallust": true,
 
-	"idle": {
-		"timeouts": [
-			{
-				"timeout": 240,
-				"idleAction": "lock"
-			},
-			{
-				"timeout": 300,
-				"idleAction": "dpms off",
-				"activeAction": "dpms on"
-			}
-		]
-	}
+  "lock": {
+    "fixLockScreen": false,
+    "useWallpaper": true
+  },
+
+  "idle": {
+    "timeouts": [
+      {
+        "timeout": 240,
+        "idleAction": "lock"
+      },
+      {
+        "timeout": 300,
+        "idleAction": "dpms off",
+        "activeAction": "dpms on"
+      }
+    ]
+  },
+
+  "barConfig": {
+    "entries": [
+      {
+        "id": "workspaces",
+        "enabled": true
+      },
+      {
+        "id": "dash",
+        "enabled": true
+      },
+      {
+        "id": "audio",
+        "enabled": true
+      },
+      {
+        "id": "resources",
+        "enabled": true
+      },
+      {
+        "id": "updates",
+        "enabled": true
+      },
+      {
+        "id": "spacer",
+        "enabled": true
+      },
+      {
+        "id": "activeWindow",
+        "enabled": true
+      },
+      {
+        "id": "spacer",
+        "enabled": true
+      },
+      {
+        "id": "tray",
+        "enabled": true
+      },
+      {
+        "id": "network",
+        "enabled": false
+      },
+      {
+        "id": "upower",
+        "enabled": true
+      },
+      {
+        "id": "clock",
+        "enabled": true
+      },
+      {
+        "id": "notifBell",
+        "enabled": true
+      }
+    ]
+  }
 }

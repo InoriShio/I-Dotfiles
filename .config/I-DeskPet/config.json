@@ -1,6 +1,4 @@
 {
-  "gifFolder": "/home/inorishio/Pictures/Pets/",
-  "scaling": "1.6",
-  "maxHeight": "300",
-  "maxWidth": "300"
+  "gifFolder": "/home/inorishio/Pictures/Pets",
+  "maxScaling": 1
 }

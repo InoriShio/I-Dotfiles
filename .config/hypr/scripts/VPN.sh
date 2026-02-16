@@ -1,9 +1,9 @@
-#!/bin/zsh
+#!/usr/bin/env zsh
 
 VPN="https://anyconnect.vught.nl"
 
-if ( pgrep openconnect > /dev/null ); then
-    pkill openconnect
+if [[ $(pgrep openconnect) ]]; then
+	pkill openconnect
 else
-    openconnect-sso --server $VPN
+	openconnect-sso --server $VPN
 fi

@@ -5,8 +5,8 @@ alias cod='conda deactivate'
 alias grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias up='yay -Syu --noconfirm'
 alias exit='systemctl poweroff'
-alias reboot="hyprshutdown --post-cmd 'systemctl reboot'"
-alias shutdown="hyprshutdown --post-cmd 'systemctl poweroff'"
+alias reboot='systemctl reboot'
+alias p='python3'
 
 # Github
 alias gcredential='git config credential.helper store'

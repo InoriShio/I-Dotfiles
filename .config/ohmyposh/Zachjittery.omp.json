@@ -12,8 +12,8 @@
       "alignment": "left",
       "segments": [
         {
-          "template": "➜ ",
-          "foreground": "#f1184c",
+          "template": " ❯ </>",
+          "foreground": "#a388db",
           "type": "text",
           "style": "plain"
         }
